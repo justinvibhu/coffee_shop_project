@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+body{
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(images/fe.jpg);
+  margin: 0;
+  padding: 0;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  background-size: cover;
+
+}
+.reg
+{
+  background-color:#2a2121;
+  text-align: justify;
+  font-family: cursive;
+  width:30px ;
+  padding :50px;
+  height:554px;
+  color:white;
+  margin: -170px 20px;
+  border:2px black;
+  width: 539px;
+  position: absolute;
+  top:30%;
+  left:25%;
+  transform: translate(-50,-50);
+}
+.textbox
+{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding:9px 0;
+  margin:9px 0;
+  border-bottom: 1px solid cornsilk;
+}
+.textbox input{
+  padding :9px 70px;
+  color: white;
+  border: none;
+  outline: none;
+  background: none;
+
+
+}
+.btn{
+  width: 90%;
+  background:none;
+  border: 1px solid grey;
+  font-size: 10px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+</style>
+<body>
+<div class="reg">
+  <form action="action_page.php">
+    <h2> Fill the currect details </h2>
+    <div class="textbox"> 
+    <label for="fname">Full Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+    
+  </div>
+
+
+    
+
+  <div class="textbox"> 
+    <label for="Email">Email </label>
+    <input type="text" id="Email" name="Email" placeholder="Email">
+    </div>
+    <div class="textbox"> 
+    <label for="Address">Address </label>
+    <input type="text" id="Address" name="Email" placeholder="Address">
+    </div>
+
+    <div class="textbox"> 
+    <label for="number">Mobile NO</label>
+    <input type="number" id="number" name="number" placeholder="Mobile number">
+    </div>
+    <div class="textbox"> 
+    <label for="Card">Card Number</label>
+    <input type="number" id="number" name="number" placeholder="Card">
+<br>
+<div class="textbox">
+    <label for="date">Expairy Date</label>
+    <input type="date" id="date" >
+
+   <br> <label for="date">cvv</label>
+    <input type="number " id="date" placeholder=" Cvv">
+</div>
+
+    <div class="btn">
+      <input type="submit" value="Submit">
+    </div>
+
+  </form>
+</div>
+
+</body>
+</html>
